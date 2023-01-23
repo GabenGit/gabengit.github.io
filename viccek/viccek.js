@@ -23,7 +23,7 @@ function rvicc()
     let veletlen_szam = Math.floor(Math.random() * viccek.length);
     console.log(veletlen_szam)
     document.getElementById("vicc_helye").innerHTML=viccek[veletlen_szam]
-    document.getElementById("kep_helye").src=veletlen_szam[veletlen_szam]
+    document.getElementById("kep_helye").src=kepek[veletlen_szam]
 }
 
 rvicc()
